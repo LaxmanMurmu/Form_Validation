@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    background: rgb(34,83,195);
+background: linear-gradient(0deg, rgba(34,83,195,1) 0%, rgba(45,224,253,1) 100%);
+background-repeat: no-repeat;
+}
+#main-page{
+position: relative;
+background-color: white;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
+border-radius: 30px;
+box-shadow: 1px 2px 2px black;
+
+}
+/* h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius:10px ;
+    box-shadow: 1px 1px 10px #0d6efd;
+} */
+label{
+    color: rgb(130, 139, 162);
+}
+.h-holder{
+    /* background-color:rgb(92, 92, 238) ;
+    padding: 10px; */
+}
+.font{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    border-top:2px rgb(92, 92, 238) solid;
+    border-bottom:2px rgb(92, 92, 238) solid;
+    border-left:3px rgb(92, 92, 238) solid;
+    border-right: 9px  rgb(92, 92, 238)solid;
+border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline:none;
+}
+.form-input:focus{
+    border-bottom:3px rgb(92, 92, 238) solid ;
+}
+.info{
+    position:absolute;
+}
+.width{
+    width: 50%;
+}
+
+.de-btn{
+    width: fit-content;
+    float: right;
+    margin-left: auto;
+    margin-top: 30px;
+}
+#all-detail{
+    
+}    
+header{
+    text-align: -webkit-center;
+    
+}
+.nav{
+    width: 30%;
+    background-color: white;
+    padding: 50px;
+    /* border:3px rgba(45,224,253,1) solid; */
+    border-bottom-left-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom-right-radius: 100px;
+    box-shadow: 2px 1px 10px black;
+    background: linear-gradient(0deg, white 0%, rgba(45,224,253,1) 100%);
+}
+
+@media (max-width:600px) {
+    #main-page{
+        padding: 10px;
+    }
+    
+}
